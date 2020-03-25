@@ -1,0 +1,22 @@
+header, 
+nav#menu {
+    transition: all 1s;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #EA5353;
+}
+
+.text-primary {
+    color: #EA5353 !important;
+}
+
+.text-dark-blue {
+    color: #2F3A59 !important;
+}
+
+.bg-primary {
+    background-color: #EA5353 !important;
+}
