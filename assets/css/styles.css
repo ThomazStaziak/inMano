@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'intro';
+    src: url('../fonts/IntroRegularAlt.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'intro';
+    src: url('../fonts/IntroSemiBold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'intro';
+    src: url('../fonts/Intro-Bold-Alt.otf');
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'intro';
+}
+
 header, 
 nav#menu {
     transition: all 1s;
@@ -19,4 +45,14 @@ nav#menu {
 
 .bg-primary {
     background-color: #EA5353 !important;
+}
+
+.bg-dark-blue {
+    background-color: #2F3A59 !important;
+}
+
+.custom-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #EA5353;
 }
