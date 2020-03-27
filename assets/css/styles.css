@@ -51,6 +51,10 @@ nav#menu {
     background-color: #2F3A59 !important;
 }
 
+.btn.bg-primary:hover {
+    background-color: #EC3C3C !important;
+}
+
 .custom-bullet {
     width: 15px;
     height: 15px;
